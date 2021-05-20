@@ -27,3 +27,5 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb #
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
+
+git clone https://github.com/fw876/helloworld.git package/helloworld
