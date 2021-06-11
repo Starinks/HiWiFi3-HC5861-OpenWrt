@@ -23,4 +23,22 @@ EOF
 #取消默认启用的软件
 cat >> .config <<EOF
 # CONFIG_PACKAGE_luci-app-accesscontrol is not set
+# CONFIG_PACKAGE_luci-app-vlmcsd is not set
+EOF
+
+#使固件支持tf卡扩展
+cat >> .config <<EOF
+CONFIG_PACKAGE_kmod-nls-cp437=y
+CONFIG_PACKAGE_kmod-nls-iso8859-1=y
+CONFIG_PACKAGE_kmod-nls-utf8=y
+CONFIG_PACKAGE_kmod-sdhci=y
+CONFIG_PACKAGE_kmod-sit=y
+CONFIG_PACKAGE_block-mount=y
+CONFIG_PACKAGE_kmod-fs-ext4=y
+CONFIG_PACKAGE_kmod-fs-vfat=y
+EOF
+
+#启用软件
+cat >> .config <<EOF
+CONFIG_PACKAGE_luci-app-argon-config=y
 EOF
