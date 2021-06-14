@@ -24,6 +24,7 @@ EOF
 cat >> .config <<EOF
 # CONFIG_PACKAGE_luci-app-accesscontrol is not set
 # CONFIG_PACKAGE_luci-app-vlmcsd is not set
+# CONFIG_PACKAGE_luci-app-unblockmusic is not set
 EOF
 
 #使固件支持tf卡扩展
