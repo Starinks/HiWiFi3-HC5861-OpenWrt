@@ -41,4 +41,5 @@ EOF
 #启用软件
 cat >> .config <<EOF
 CONFIG_PACKAGE_luci-app-argon-config=y
+CONFIG_PACKAGE_luci-app-jd-dailybonus=y
 EOF
