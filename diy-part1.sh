@@ -22,6 +22,8 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luc
 # 删除旧主题
 rm -rf package/lean/luci-theme-argon
 
+rm -rf package/lean/luci-app-jd-dailybonus
+
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb #git lua-maxminddb 依赖
 
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
@@ -29,3 +31,5 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 
 git clone https://github.com/fw876/helloworld.git package/helloworld
+
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
